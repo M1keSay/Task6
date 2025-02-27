@@ -317,5 +317,5 @@ var CarImpl = function () {
 }();
 var owner1 = new OwnerClass("Капранов", "Василий", "Генадьевич", new Date(1990, 1, 1), TypeOfDocument.Passport, "1234", "567890");
 var car1 = new CarImpl("Toyota", "Camry", 2020, "QWERTYU789632", "ABC123", owner1, BodyType.Sedan, CarClass.Luxury);
-//Object.defineProperty("UV", "Color", { value: "Black"});
+//Object.defineProperty("UV", "Color", { value: "Yellow"});
 console.log(car1.getCarInfo());
